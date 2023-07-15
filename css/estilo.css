@@ -204,6 +204,10 @@ main{
     padding: 16px;
     border-radius: 5px;
 }
+#teams ul li.empty{
+    width: 100%;
+    text-align: center;
+}
 #teams ul li h5{
     display: flex;
     justify-content: space-between;

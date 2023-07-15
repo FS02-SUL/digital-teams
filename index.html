@@ -49,6 +49,18 @@
         <ul id="listaDeParticipantes"></ul>
     </section>
 
+    <section id="criarParticipante" class="modal">
+        <h3>Adicionar Participantes <box-icon id="fecharFormParticipante" name='x'></box-icon></h3>
+        <form onsubmit="adicionarParticipante()">
+            <input type="hidden" id="teamId">
+            <label class="mini-title" for="participanteNome">Nome</label>
+            <input type="text" id="participanteNome" placeholder="Digite o nome do partipante" required>
+            <button type="submit" class="btn form mini-title">
+                salvar
+            </button>
+        </form>
+    </section>
+
     
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="js/scripts.js"></script>
